@@ -1,0 +1,324 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link async rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
+    <link async rel="stylesheet" href="style.css">
+    <link async href="https://use.fontawesome.com/releases/v5.0.4/css/all.css" rel="stylesheet">
+    
+</head>
+<body>
+    <div class="container-fluid top-header">
+        <div class="container">
+            <div class="float-right"><p class="up">Welcome</p></div>
+            <ul class="nav">
+                <li class="nav-item">
+                    <p class="up">Your language:</p>
+                </li>
+                <li class="nav-item">
+                        <select class="form-inline">
+                            <option>English</option>
+                            <option>Russia</option>
+                        </select>
+                </li> 
+            </ul>
+        </div>
+    </div>
+    <div class="container">
+        <div class="account float-right">
+            <ul class="nav">
+                <li class="nav-item">
+                    <a class="nav-link active" href="#">
+                        <i class="fas fa-user"></i>
+                        <span class="up">Account</span>
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">
+                        <i class="fas fa-shopping-cart"></i>
+                        <span class="up">Cart</span>
+                    </a>
+                </li>
+            </ul>
+        </div>
+        <div class="col-3 logo">
+            <span id="madison">Madison</span>
+            <span id="island">island</span>
+        </div>
+    </div>
+    <div class="container menu">
+        <ul class="nav">
+            <li class="nav-item">
+              <a class="nav-link active" href="#">Women</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Men</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Accessories</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Home&decor</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">Sale</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">Vip</a>
+            </li>  
+          </ul>
+    </div>
+    <div class="container bread">
+        <ol class="breadcrumb">
+            <li class="breadcrumb-item"><a href="#">Home</a></li>
+            <li class="breadcrumb-item"><a href="#">Home&decor</a></li>
+            <li class="breadcrumb-item"><a href="#">Bed&bath</a></li>
+          </ol>
+    </div>
+    <!-- filter -->
+    <div class="container main">
+        <div class="row">
+            <div class="col-3">
+                <h3 class="up">Shop by</h3>
+                <div class="list-block">
+                    <div class="list-group">
+                        <button type="button" class="list-group-item list-group-item-action active">
+                        <span class="by">Price</span>
+                        </button>
+                        <button type="button" class="list-group-item list-group-item-action">$0.00 - $99.99<span class="grey">(2)</button>
+                        <button type="button" class="list-group-item list-group-item-action">$100.00 - $199.99<span class="grey">(2)</button>
+                        <button type="button" class="list-group-item list-group-item-action">$200.00 and above<span class="grey">(4)</span></button>
+                    </div>
+                    <div class="list-group">
+                        <button type="button" class="list-group-item list-group-item-action active">
+                        <span class="by">Color</span>
+                        </button>
+                        <button type="button" class="list-group-item list-group-item-action">Blue<span class="grey">(2)</span></button>
+                        <button type="button" class="list-group-item list-group-item-action">Cognac<span class="grey">(2)</button>
+                        <button type="button" class="list-group-item list-group-item-action">Ivory<span class="grey">(2)</button>
+                        <button type="button" class="list-group-item list-group-item-action">Silver<span class="grey">(2)</button>
+                        <button type="button" class="list-group-item list-group-item-action">Taupe<span class="grey">(2)</button>
+                        <button type="button" class="list-group-item list-group-item-action">White<span class="grey">(1)</button>
+                        <button type="button" class="list-group-item list-group-item-action">Yellow<span class="grey">(1)</button>
+                    </div>
+                    <div class="list-group">
+                        <button type="button" class="list-group-item list-group-item-action active">
+                        <span class="by">Material</span>
+                        </button>
+                        <button type="button" class="list-group-item list-group-item-action">Cotton <span class="grey">(2)</span></button>
+                        <button type="button" class="list-group-item list-group-item-action">Other<span class="grey">(2)</span></button>
+                        <button type="button" class="list-group-item list-group-item-action">Shea<span class="grey">(1)</span></button>
+                        <button type="button" class="list-group-item list-group-item-action">Silk<span class="grey">(2)</span></button>
+                        <button type="button" class="list-group-item list-group-item-action">Wool<span class="grey">(3)</span></button>
+                    </div>
+                    <div class="list-group">
+                        <button type="button" class="list-group-item list-group-item-action active">
+                        <span class="by">Bed&Bath type</span>
+                        </button>
+                        <button type="button" class="list-group-item list-group-item-action">Bath<span class="grey">(2)</span></button>
+                        <button type="button" class="list-group-item list-group-item-action">Bed<span class="grey">(6)</span></button>
+                    </div>
+                    <div class="list-group">
+                        <button type="button" class="list-group-item list-group-item-action active">
+                        <span class="by">Decor type</span>
+                        </button>
+                        <button type="button" class="list-group-item list-group-item-action">N/A<span class="grey">(2)</span></button>
+                        <button type="button" class="list-group-item list-group-item-action">Throw <span class="grey">(6)</span></button>
+                    </div>
+                    <div class="list-group">
+                        <button type="button" class="list-group-item list-group-item-action active">
+                        <span class="by">Home&decor type</span>
+                        </button>
+                        <button type="button" class="list-group-item list-group-item-action">Bed&Bath<span class="grey">(8)</span></button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-9">
+                <h2 class="up">Bed&Bath</h2>
+                <!-- sort menu -->
+                <div class="container-fluid sort">
+                        <div class="float-right">
+                            <ul class="nav">
+                                <li class="nav-item"><strong>8 Item(s)</strong></li>
+                                <li class="nav-item">
+                                    <p class="up">Show:</p>
+                                </li>
+                                <li class="nav-item">
+                                        <select class="form-inline">
+                                            <option>12</option>
+                                            <option>24</option>
+                                        </select>
+                                </li> 
+                            </ul>
+                        </div>
+                        <ul class="nav">
+                            <li class="nav-item">
+                                <p class="up">Sort by:</p>
+                            </li>
+                            <li class="nav-item">
+                                    <select class="form-inline">
+                                        <option>Position</option>
+                                        <option>Price</option>
+                                    </select>
+                            </li>
+                            <li>
+                                <a href="#"><i class="fas fa-long-arrow-alt-up"></i></a>
+                            </li>
+                            <li class="nav-item">
+                                <span class="up">View as:</span>
+                                    <a href="#"><i class="fas fa-th-large active"></i></a>
+                                    <a href="#"><i class="fas fa-bars"></i></a>
+                            </li>
+                        </ul>
+                </div>
+                <!-- catalog -->
+                <div class="container-fluid">
+                    <div class="row shop">
+                        <div class="col-3">
+                                <div class="card" style="width: 20rem;">
+                                        <img class="card-img-top" src="images/1.jpg" alt="Card image cap">
+                                        <div class="card-block">
+                                        <h4 class="card-title">Body wash with lemon flower extract and aloe vera</h4>
+                                        <p class="card-text">$28.00</p>
+                                        <a href="#" class="btn btn-primary">Add to card</a>
+                                        <p class="card-text"><a href="#">Add to Wishlist</a>
+                                        <br><a href="#">Add to Compare</a></p>
+                                        </div>
+                                    </div>
+                        </div>
+                        <div class="col-3">
+                                <div class="card" style="width: 20rem;">
+                                        <img class="card-img-top" src="images/2.jpg" alt="Card image cap">
+                                        <div class="card-block">
+                                        <h4 class="card-title">Shea enfused hydrating body lotion</h4>
+                                        <p class="card-text">$28.00</p>
+                                        <a href="#" class="btn btn-primary">Add to card</a>
+                                        <p class="card-text"><a href="#">Add to Wishlist</a>
+                                        <br><a href="#">Add to Compare</a></p>
+                                        </div>
+                                    </div>
+                        </div>
+                        <div class="col-3">
+                                <div class="card justify-content-center" style="width: 20rem;">
+                                        <img class="card-img-top" src="images/3.jpg" alt="Card image cap">
+                                        <div class="card-block">
+                                        <h4 class="card-title">Titian raw silk pillow</h4>
+                                        <p class="card-text">$125.00
+                                        <br><span class="red">Allow as</span> $100.00</p>
+                                        <a href="#" class="btn btn-primary">Add to card</a>
+                                        <p class="card-text"><a href="#">Add to Wishlist</a>
+                                        <br><a href="#">Add to Compare</a></p>
+                                        </div>
+                                    </div>
+                        </div>
+                        <div class="col-3">
+                                <div class="card" style="width: 20rem;">
+                                        <img class="card-img-top" src="images/4.jpg" alt="Card image cap">
+                                        <div class="card-block">
+                                        <h4 class="card-title">Shay printed pillow</h4>
+                                        <p class="card-text">$210.00</p>
+                                        <a href="#" class="btn btn-primary">Add to card</a>
+                                        <p class="card-text"><a href="#">Add to Wishlist</a>
+                                        <br><a href="#">Add to Compare</a></p>
+                                        </div>
+                                    </div>
+                        </div>
+                        <!-- 2-d string -->
+                        <div class="col-3">
+                                <div class="card" style="width: 20rem;">
+                                        <img class="card-img-top" src="images/5.jpg" alt="Card image cap">
+                                        <div class="card-block">
+                                        <h4 class="card-title">Carnegie alpaca throw</h4>
+                                        <p class="card-text">$275.00</p>
+                                        <a href="#" class="btn btn-primary">Add to card</a>
+                                        <p class="card-text"><a href="#">Add to Wishlist</a>
+                                        <br><a href="#">Add to Compare</a></p>
+                                        </div>
+                                    </div>
+                        </div>
+                        <div class="col-3">
+                                <div class="card" style="width: 20rem;">
+                                        <img class="card-img-top" src="images/6.jpg" alt="Card image cap">
+                                        <div class="card-block">
+                                        <h4 class="card-title">Park row throw</h4>
+                                        <p class="card-text"><del>$240.00</del> $120.00</p>
+                                        <a href="#" class="btn btn-primary">Add to card</a>
+                                        <p class="card-text"><a href="#">Add to Wishlist</a>
+                                        <br><a href="#">Add to Compare</a></p>
+                                        </div>
+                                    </div>
+                        </div>
+                        <div class="col-3">
+                                <div class="card" style="width: 20rem;">
+                                        <img class="card-img-top" src="images/7.jpg" alt="Card image cap">
+                                        <div class="card-block">
+                                        <h4 class="card-title">Gramercy throw</h4>
+                                        <p class="card-text">$275.00</p>
+                                        <a href="#" class="btn btn-primary">Add to card</a>
+                                        <p class="card-text"><a href="#">Add to Wishlist</a>
+                                        <br><a href="#">Add to Compare</a></p>
+                                        </div>
+                                    </div>
+                        </div>
+                        <div class="col-3">
+                                <div class="card" style="width: 20rem;">
+                                        <img class="card-img-top" src="images/4.jpg" alt="Card image cap">
+                                        <div class="card-block">
+                                        <h4 class="card-title">Pillow and throw set</h4>
+                                        <p class="card-text">From: $245.00
+                                        <br>To: $485.00</p>
+                                        <a href="#" class="btn btn-primary">Add to card</a>
+                                        <p class="card-text"><a href="#">Add to Wishlist</a>
+                                        <br><a href="#">Add to Compare</a></p>
+                                        </div>
+                                    </div>
+                        </div>
+                    </div>
+                    <!-- sort menu -->
+                    <div class="container-fluid sort">
+                        <div class="float-right">
+                            <ul class="nav">
+                                <li class="nav-item"><strong>8 Item(s)</strong></li>
+                                <li class="nav-item">
+                                    <p class="up">Show:</p>
+                                </li>
+                                <li class="nav-item">
+                                        <select class="form-inline">
+                                            <option>12</option>
+                                            <option>24</option>
+                                        </select>
+                                </li> 
+                            </ul>
+                        </div>
+                        <ul class="nav">
+                            <li class="nav-item">
+                                <p class="up">Sort by:</p>
+                            </li>
+                            <li class="nav-item">
+                                    <select class="form-inline">
+                                        <option>Position</option>
+                                        <option>Price</option>
+                                    </select>
+                            </li>
+                            <li>
+                                <a href="#"><i class="fas fa-long-arrow-alt-up"></i></a>
+                            </li>
+                            <li class="nav-item">
+                                <span class="up">View as:</span>
+                                    <a href="#"><i class="fas fa-th-large active"></i></a>
+                                    <a href="#"><i class="fas fa-bars"></i></a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.1.1.slim.min.js" integrity="sha384-A7FZj7v+d/sdmMqp/nOQwliLvUsJfDHW+k9Omg/a/EheAdgtzNs3hpfag6Ed950n" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script>
+</body>
+</html>

@@ -1,0 +1,171 @@
+body {
+    color: #636363;
+    line-height: 1.7;
+}
+.col-3 {
+    padding: 0px;
+}
+.nav a, .by {
+    text-transform: uppercase;
+    color: #636363;
+}
+i {
+    padding-right: .3rem;
+}
+.up {
+    text-transform: uppercase;
+    margin-bottom: 0px;
+}
+/* header */
+.top-header {
+    background-color: #3399cc;
+    color: #fff;
+    padding: .5rem 0;
+}
+.welc {
+    display: inline-block;
+}
+.nav-link {
+    padding: .15em .3em;
+}
+.logo {
+    text-align: center;
+}
+#madison {
+    color: #3399cc;
+    text-transform: uppercase;
+    font-size: 3rem;
+}
+#island {
+    color: #3399cc;
+    text-transform: uppercase;
+    font-size: 2.8rem;
+    font-weight: 200;
+    line-height: .6;
+}
+.menu {
+    margin-top: 15px;
+    border-bottom: 2px solid #f4f4f4;
+}
+.menu a:hover {
+    color: #3399cc;
+}
+.account span:hover {
+    color: #3399cc;
+}
+/* breadcrumb */
+.bread {
+    padding-left: 0px;
+}
+.breadcrumb {
+    background: none;
+    padding-left: 0px;
+}
+.breadcrumb a {
+    color: #636363;
+}
+.breadcrumb-item {
+    font-size: .8rem;
+}
+.breadcrumb-item {
+    text-transform: uppercase;
+}
+/* catalog */
+.shop {
+    margin-right: -23px;
+    margin-left: -23px;
+}
+.sort {
+    background-color: #f4f4f4;
+    height: 40px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    border-top: 1px solid rgba(0,0,0,.125);
+    border-bottom: 1px solid rgba(0,0,0,.125);
+    padding-top: .3rem;
+}
+.sort i.active {
+    color: #3399cc;
+}
+.card {
+    width: auto!important;
+    border-radius: 0px;
+    border: none;
+    margin: 10px;
+}
+.card-block {
+    padding: .25rem;
+    text-align: center;
+}
+.card-title {
+    text-align: center;
+    font-size: .9rem;
+    font-weight: 400;
+    text-transform: uppercase;
+}
+.card-text {
+    text-align: center;
+    font-size: .7rem;
+    color: #3399cc;
+}
+.card-text a {
+    color: #3399cc;
+}
+.card-img-top {
+    border: 1px solid #f4f4f4;
+    border-radius: 0px;
+}
+/* filter */
+.main {
+    margin-bottom: 150px;
+}
+.list-block {
+    margin-top: 15px;
+}
+.list-group {
+    border: 1px solid rgba(0,0,0,.125);
+}
+.list-group-item.active {
+    background-color: #f4f4f4;
+    border-bottom: 1px solid rgba(0,0,0,.125);
+}
+.list-group-item-action {
+    border: 0px;
+}
+.list-group-item:first-child {
+    border-radius: 0px;
+}
+.list-group-item {
+    padding: .4rem 1.25rem;
+}
+.list-group-item.list-group-item-action {
+    color: #3399cc;
+}
+.menu .nav-item {
+    padding-right: 2rem;
+}
+.red {
+    color: #d06565;
+    text-transform: uppercase;
+}
+.grey {
+    color: #636363;
+    padding-left: .1rem;
+}
+#bottom {
+    border-bottom: 1px solid #f4f4f4;
+    border-radius: 0px;
+}
+.btn {
+    font-size: .6rem;
+    border-radius: 0px;
+}
+.btn-primary {
+    background-color: #3399cc;
+    border-color: #3399cc;
+    text-transform: uppercase;
+}
+button {
+    font-size: .9rem;
+}
+
