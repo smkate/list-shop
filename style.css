@@ -16,6 +16,10 @@ i {
     text-transform: uppercase;
     margin-bottom: 0px;
 }
+h3 {
+    font-size: 1.3rem;
+    color: #3399cc;
+}
 /* header */
 .top-header {
     background-color: #3399cc;
@@ -86,6 +90,10 @@ i {
 }
 .sort i.active {
     color: #3399cc;
+}
+.sort .nav-item {
+    margin-left: .4rem;
+    margin-right: .4rem;
 }
 .card {
     width: auto!important;
